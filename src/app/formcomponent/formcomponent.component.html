@@ -1,0 +1,65 @@
+<!-- <div class="container-fluid body">
+    <h2 class="text-center">Add a Quote</h2>
+    <hr>
+    <form (ngSubmit)='submitQuote()' #quoteForm='ngForm' autocomplete="off">
+        <div class="form-group">
+            <label for="quote">New Quote</label>
+            <textarea class="form-control" id="new" rows="4" [(ngModel)]="newQuote.text" name="quote" #text='ngModel' required></textarea>
+            <div [hidden]="text.valid || text.pristine" class="alert alert-danger">
+              <p>What's the quote</p>
+            </div>  
+        </div> -->
+
+
+
+
+
+
+
+
+
+
+<div class="container-fluid container form-align">
+   
+<hr>
+<div class="row ">
+    <div class="col-md-6">
+    </div>
+
+    <div class="col-md-6">
+        <h3 class="text-center text-primary">
+            New Quote
+        </h3>
+        <form class="row " >
+            <div class="form-group">
+            <label for="name">Author: </label>
+            <input type="text" required class="form-control" id="name">
+            
+            
+            </div>
+            <div  class="form-group">
+                <label for="Quotes">Quotes</label>
+                <textarea class="form-control" id="Quotes" rows="4" required></textarea>
+            </div>
+            <div  class="form-group">
+                <label for="Quotes">submitted by:</label>
+                <input type="text" class="form-control">
+            </div>
+            <div>
+                <!-- <p>{{Votes}}</p>
+                <button class="bg-danger" (click)="likeButtonClick()"><Strong>Like</Strong> </button>
+                <p>{{Vote}}</p>
+                <button class="bg-danger" (click)="dislikeButtonClick()"><Strong>Dislike</Strong> </button>
+                <br> -->
+                <button type="submit" class="btn btn-primary m-4" >Add Quote</button>
+
+            </div>
+            
+            </form>
+    </div>
+
+</div>
+
+
+
+</div>

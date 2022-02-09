@@ -1,0 +1,9 @@
+borderA{
+    color: rgb(142, 255, 127);
+}
+.form-align{
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+}

@@ -1,0 +1,26 @@
+<button class="btn btn-primary mb-3" (click)="onToggle()">{{toggle ? 'hide quotes' : 'show quotes'}}</button>
+
+<div *ngIf="toggle">
+<div class = 'container bg-info p-4 card'>
+
+    <li *ngFor = 'let quote of Rules' >
+        {{quote.name}} <em class="text-primary">{{quote.description}}</em>  
+        <span>
+            <li>
+
+
+                <span class="badge rounded-pill bg-success">{{Votes}}</span>
+    <button (click)="likeButtonClick()" class="btn btn-danger m-4">like</button>
+    <span class="badge rounded-pill bg-danger">{{dislikeVote}}</span>
+    <button (click)="dislikeButtonClick()" class="btn btn-success m-4" >
+    dislike
+    </button>
+            </li>
+        </span>
+
+    </li>
+   
+
+
+</div>
+</div>
