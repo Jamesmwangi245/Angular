@@ -6,6 +6,7 @@
     <li *ngFor = 'let quote of Rules' >
         {{quote.name}} <em class="text-primary">{{quote.description}}</em>  
         <span>
+            <p class="elapsed">{{quote.createdOn | elapsedTime}}</p>
             <li>
 
 

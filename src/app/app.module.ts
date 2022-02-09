@@ -9,6 +9,7 @@ import { NewcomponentComponent } from './newcomponent/newcomponent.component';
 import { TrialComponent } from './trial/trial.component';
 import { DetailComponent } from './detail/detail.component';
 import { FooterComponent } from './footer/footer.component';
+import { ElapsedTimePipe } from './elapsed-time.pipe';
 
 
 
@@ -27,7 +28,8 @@ import { FooterComponent } from './footer/footer.component';
     AppComponent,
     TrialComponent,
     DetailComponent,
-    FooterComponent
+    FooterComponent,
+    ElapsedTimePipe
   ]
 })
 export class AppModule { }
